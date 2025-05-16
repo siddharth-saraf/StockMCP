@@ -1,20 +1,8 @@
 # Stock API Service
-A simple API service that retrieves stock price information using the Yahoo Finance API.
-Overview
-This service provides a convenient way to fetch stock data through a FastMCP-based API. It uses yfinance to retrieve detailed information about stocks when provided with a ticker symbol.
-Features
-
-Get current stock price and related information
-Simple API with a single endpoint
-Built on FastMCP for easy integration
+A simple API service that retrieves stock price information using the Yahoo Finance API through a FastMCP-based API. It uses yfinance to retrieve detailed information about stocks when provided with a ticker symbol.
 
 ## Requirements
 Python 3.12 or higher
-
-## Dependencies:
-httpx >= 0.28.1\
-mcp[cli] >= 1.8.1\
-yfinance >= 0.2.61
 
 ## Installation
 
